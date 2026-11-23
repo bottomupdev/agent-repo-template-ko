@@ -1,0 +1,4 @@
+interface:
+  display_name: "문서 정합성 리뷰어"
+  short_description: "PR의 문서, 결정 기록, 범위, 아키텍처 정합성 리뷰"
+  default_prompt: "$docs-consistency-reviewer로 이 PR의 문서, 결정 기록, 제품 범위, 아키텍처 정합성을 리뷰해 주세요."

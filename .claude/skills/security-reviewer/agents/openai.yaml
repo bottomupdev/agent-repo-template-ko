@@ -1,0 +1,4 @@
+interface:
+  display_name: "보안 리뷰어"
+  short_description: "PR의 구체적인 보안과 개인정보 위험 리뷰"
+  default_prompt: "$security-reviewer로 이 PR의 보안과 개인정보 위험만 리뷰해 주세요."

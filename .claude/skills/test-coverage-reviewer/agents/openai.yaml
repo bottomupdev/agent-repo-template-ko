@@ -1,0 +1,4 @@
+interface:
+  display_name: "테스트 커버리지 리뷰어"
+  short_description: "PR의 테스트 품질과 커버리지 공백 리뷰"
+  default_prompt: "$test-coverage-reviewer로 이 PR의 테스트 품질과 커버리지 공백을 리뷰해 주세요. 파일을 수정하지 마세요."

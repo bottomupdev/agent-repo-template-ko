@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI PR 오너 리뷰"
+  short_description: "AI가 작성한 PR을 오너에게 설명하고 머지 차단 요소를 구분"
+  default_prompt: "$ai-pr-owner-review로 이 PR을 설명하고 머지 차단 요소와 후속 작업을 구분해 주세요. 대화형 teach-back 질문은 오너가 요청했거나 명시적으로 이미 존재하는 게이트가 요구할 때만 하세요."

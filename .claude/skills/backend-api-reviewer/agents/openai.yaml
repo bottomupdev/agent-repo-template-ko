@@ -1,0 +1,4 @@
+interface:
+  display_name: "백엔드 API 리뷰어"
+  short_description: "PR의 백엔드/API 정확성 리뷰"
+  default_prompt: "$backend-api-reviewer로 이 PR의 백엔드/API 정확성을 리뷰해 주세요. 파일을 수정하거나 코멘트를 올리지 마세요."

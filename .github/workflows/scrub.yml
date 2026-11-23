@@ -1,0 +1,25 @@
+name: scrub
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  scrub:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Leak check
+        env:
+          SCRUB_TERMS: ${{ secrets.SCRUB_TERMS }}
+        run: node scripts/scrub.mjs

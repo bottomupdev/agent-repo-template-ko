@@ -1,0 +1,4 @@
+interface:
+  display_name: "엔지니어링 리뷰어"
+  short_description: "아키텍처와 확장성 중심의 시니어 PR 리뷰"
+  default_prompt: "$engineering-reviewer로 이 PR의 아키텍처 정합성, 효율, 유연성, 확장성을 리뷰해 주세요."
